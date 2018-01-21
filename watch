@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -e
+cargo watch -x test -x clippy -x "fmt -- --write-mode=diff"

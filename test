@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+# where did i put rustproto.proto? protoc --rust_out src schema.proto
+cargo test
+cargo clippy
+cargo fmt -- --write-mode=diff
+cargo readme > README.md

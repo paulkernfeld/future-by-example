@@ -1,0 +1,15 @@
+[package]
+name = "future-by-example"
+description = "Examples of common patterns using Future"
+authors = ["Paul Kernfeld <paulkernfeld@gmail.com>"]
+readme = "README.md"
+categories = ["asynchronous", "concurrency"]
+keywords = ["futures", "tokio", "tutorial"]
+license = "MIT/Apache-2.0"
+version = "0.1.0"
+documentation = "https://docs.rs/future-by-example"
+repository = "https://github.com/paulkernfeld/future-by-example"
+
+[dependencies]
+futures         = "0.1"
+tokio-core      = "0.1"
